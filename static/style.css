@@ -1,0 +1,10 @@
+body {
+    background: #007bff;
+    margin-top:20px;
+  }
+
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+  
+

@@ -1,0 +1,2 @@
+# GAL-BLOX  BLOCKCHAIN FLASK APP
+### In this application I am building a signup flask app that will allow access user to interact with AI using speech recognition. It also has an db attached and will hold the information of the user once submitted.

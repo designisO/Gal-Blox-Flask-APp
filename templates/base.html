@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>GAL-BLOX (GLBX</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Animate css-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
+  </head>
+  <body>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">GAL-BLOX (GLBX)</a> 
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="base.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">GLBX-TOKEN</a>
+                  </li>
+				  <li class="nav-item">
+                    <a class="nav-link" href="glbxai.html">AI COMMANDS</a>
+                  </li>
+              </div>
+            </div>
+          </nav>
+      </div>
+    <!-- End of Navigation -->
+     <div class="container">
+        <div class="container px-5 my-5">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="card border-0 rounded-3 shadow-lg">
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <div class="h1 fw-light animate__animated animate__bounce">GAL-BLOX BLOCKCHAIN</div>
+                      <p class="mb-4 text-muted">GAL-BLOX is an open-source blockchain that can execute peer-to-peer transactions and serve as a platform for deploying smart contracts. Please fill form below to receive latest news, events and price updates.</p>
+                    </div>
+  
+          
+                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+          
+                      <!-- Name Input -->
+                      <div class="form-floating mb-3">
+                        <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+                        <label for="name">Name</label>
+                        <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+                      </div>
+          
+                      <!-- Email Input -->
+                      <div class="form-floating mb-3">
+                        <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required,email" />
+                        <label for="emailAddress">Email Address</label>
+                        <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                        <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+                      </div>
+          
+                      <!-- Message Input -->
+                      <div class="form-floating mb-3">
+                        <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+                        <label for="message">Message</label>
+                        <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+                      </div>
+          
+                      <!-- Submit success message -->
+                      <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center mb-3">
+                          <div class="fw-bolder">Form submission successful!</div>
+                        </div>
+                      </div>
+          
+                      <!-- Submit error message -->
+                      <div class="d-none" id="submitErrorMessage">
+                        <div class="text-center text-danger mb-3">Error sending message!</div>
+                      </div>
+          
+                      <!-- Submit button -->
+                      <div class="d-grid">
+                        <button type="button" class="btn btn-success" id="submit">Submit</button>
+                        <br>
+                      </div>
+                    </form>
+                    <!-- End of contact form -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>         
+    </div>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <!-- 
+    <script type="text/javascript"
+         src="{{ url_for('static', filename='/js/map.js') }}"></script>
+    -->
+
+  </body>
+</html>
